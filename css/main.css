@@ -96,10 +96,23 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   @import url('https://fonts.googleapis.com/css?family=Poiret+One|Rajdhani|Shrikhand|Source+Code+Pro');
+header, footer {
+    background-color: grey;
+   }
 
+#header-fonts {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
 
+#links-right {
+    text-align: right;
+}
 
-
+.img-style {
+ 
+}
 
 
 
