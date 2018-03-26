@@ -9,6 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+   @import url('https://fonts.googleapis.com/css?family=Poiret+One|Rajdhani|Shrikhand|Source+Code+Pro');
 
 html {
     color: #222;
@@ -96,7 +97,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   @import url('https://fonts.googleapis.com/css?family=Poiret+One|Rajdhani|Shrikhand|Source+Code+Pro');
+   html {
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
 header, footer {
     background-color: grey;
    }
