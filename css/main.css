@@ -97,7 +97,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   html {
+     html {
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
    }
 .header-fonts {
@@ -105,42 +105,26 @@ textarea {
     font-size: 20px;
 }
 
-html {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-}
-
 ul {
  list-style-type: none;
  margin: 0;
  padding: 0;
  overflow: hidden;
- background-color:  #17BEBB;
+ background-color:#0F0F1E;
 }
 li{
- float: right;
+ float: left;
 }
-header, footer{
- background: purple; 
-} 
-li, a{
+
+li a{
  display: block;
  color: white;
  text-align: center;
  padding: 10px 10px;
- background-color: #17BEBB;
-}
-img {
- background-size: auto;
-}
-
-#links-right {
- text-align: right;
+ background-color:#0F0F1E;
 }
 
 .img-style {
-<<<<<<< HEAD
-
-=======
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -149,7 +133,6 @@ img {
 
 h1 {
     text-align: center;
->>>>>>> 96d8385b56081c9062c605702b6a7e69e5199d56
 }
 
 
