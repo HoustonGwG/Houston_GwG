@@ -1,0 +1,47 @@
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+   }
+
+.header-fonts {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color:#0F0F1E;
+}
+
+li {
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 10px 10px;
+ background-color:#0F0F1E;
+}
+
+.profile-pic {
+    float: left;
+    margin-left: 10px;
+    border: 5px solid #ffffff;
+    object-fit: cover;
+}
+
+.profile-links {
+    padding-left: 550px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
