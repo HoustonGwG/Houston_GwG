@@ -114,7 +114,14 @@ header, footer {
 }
 
 .img-style {
- 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+}
+
+h1 {
+    text-align: center;
 }
 
 
@@ -291,6 +298,7 @@ header, footer {
     tr,
     img {
         page-break-inside: avoid;
+
     }
 
     p,
