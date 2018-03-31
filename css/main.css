@@ -138,7 +138,18 @@ img {
 }
 
 .img-style {
+<<<<<<< HEAD
 
+=======
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+}
+
+h1 {
+    text-align: center;
+>>>>>>> 96d8385b56081c9062c605702b6a7e69e5199d56
 }
 
 
@@ -318,6 +329,7 @@ img {
     tr,
     img {
         page-break-inside: avoid;
+
     }
 
     p,
