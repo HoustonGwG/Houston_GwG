@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c5de6f79-e586-42f8-afd1-d74528b5dec8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/grids/chrome-export/Hello!.html" afterPath="$PROJECT_DIR$/grids/chrome-export/Hello!.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -194,7 +193,7 @@
       <updated>1522536378280</updated>
       <workItem from="1522536380778" duration="961000" />
       <workItem from="1522537367537" duration="748000" />
-      <workItem from="1522538154785" duration="11212000" />
+      <workItem from="1522538154785" duration="11360000" />
     </task>
     <task id="LOCAL-00001" summary="Copied from https://glitch.com/edit/#!/grid-cats?path=index.html:1:0">
       <created>1522537523968</created>
@@ -231,11 +230,18 @@
       <option name="project" value="LOCAL" />
       <updated>1522553715790</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test eliminating viewport meta in HTML to eliminate unwanted whitespace on mobile landscape views.">
+      <created>1522553987763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1522553987763</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12921000" />
+    <option name="totallyTimeSpent" value="13069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2904" height="1574" extended-state="6" />
@@ -270,7 +276,8 @@
     <MESSAGE value="Copied from https://glitch.com/edit/#!/grid-cats?path=index.html:1:0" />
     <MESSAGE value="First Draft of Grids Concept" />
     <MESSAGE value="Test setting html and body wdith, overflow-x properties in CSS to eliminate unwanted whitespace on mobile landscape views." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test setting html and body wdith, overflow-x properties in CSS to eliminate unwanted whitespace on mobile landscape views." />
+    <MESSAGE value="Test eliminating viewport meta in HTML to eliminate unwanted whitespace on mobile landscape views." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test eliminating viewport meta in HTML to eliminate unwanted whitespace on mobile landscape views." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
