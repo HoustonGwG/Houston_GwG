@@ -29,7 +29,8 @@
 */
 
 html {
-    overflow: hidden;
+    overflow-x: hidden;
+    width:100%;
 }
 
 body {
