@@ -28,11 +28,16 @@
 }
 */
 
+html {
+    overflow: hidden;
+}
+
 body {
     font-family: 'Quicksand', sans-serif;
     background-color: #E9FEF9;
     font-size: 2vmin;
     overflow-x: hidden;
+    width: 100%;
 }
 
 header {
@@ -60,11 +65,12 @@ header {
     font-size: 8vmin;
     line-height: 1.4em;
     text-align: center;
-    text-shadow: 0.05em 0.05em 0.12em #999 ;
+    text-shadow: 0.05em 0.05em 0.12em #999;
     color: #222;
 
     margin: 0 auto;
 }
+
 .splash-HTX-GWG {
     font-size: 4vw;
     max-width: 960px;
@@ -77,7 +83,6 @@ img.GwG-Logo-Splash {
     display: block;
     margin: 0 auto;
 }
-
 
 .leading-text {
     font-size: 3vmin;
