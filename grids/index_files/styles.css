@@ -1,0 +1,109 @@
+/* Flex styles -------------------------------------------------*/
+header {
+
+}
+
+
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+
+/* Generic styles ----------------------------------------------*/
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header {
+  font-size: 1.5em;
+  color: white;
+  background-color: #333;
+}
+
+.GWG_logo {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+
+}
+
+.GWG_fig {
+  max-width: 40%;
+  align-self: flex-start;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 700px) {
+
+  .GWG_logo {
+    width: 280px;
+  }
+
+  .GWG_fig {
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.leading {
+  height: 12em;
+  margin-bottom: 1em;
+  padding: 0em;
+  color: white;
+  background: url('JohannesburgArtisticSilhouette.svg') center #eee no-repeat;
+  background-size: cover;
+  color: white;
+  text-shadow: 0px 0px 5px #000;
+}
+
+
+.leading-text {
+  max-width: 900px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+  height: 18em;
+}
+
+.article-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+svg:hover path {
+  stroke: blue;
+}
+
+
+.article-title {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.article-img:hover ~ .article-title {
+  background-color: rgba(200, 200, 255, 0.8);
+}
