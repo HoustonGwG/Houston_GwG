@@ -59,12 +59,14 @@ header {
 
 .leading {
   height: 12em;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
   padding: 0em;
   color: white;
-  background: url('JohannesburgArtisticSilhouette.svg') center #eee no-repeat;
+  background-image: url('JohannesburgArtisticSilhouette.svg');
+  background-position: center;
+  background-color:  #fff;
+  background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   text-shadow: 0px 0px 5px #000;
 }
 
@@ -73,6 +75,49 @@ header {
   max-width: 900px;
   font-size: 1.2em;
   line-height: 1.4em;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+#map {
+  height: 100%;
+}
+
+.map-canvas {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto 30px;
+  padding: 0px
 }
 
 .cards {
