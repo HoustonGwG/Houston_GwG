@@ -49,7 +49,7 @@ var list = [
     ['Kyle', 29.533487, -95.205966, './index_files/profile_faces/kyle_minify.svg','index.html'],
     ['Richard', 29.946598, -95.688767, './index_files/profile_faces/richard_minify.svg','index.html'],
     ['Lou', 29.703400, -95.861848, './index_files/profile_faces/lou_minify.svg','index.html'],
-    ['Melanie', 29.737676, -95.500878, './index_files/profile_faces/melanie_minify.svg','index.html'],
+    ['Mel', 29.737676, -95.500878, './index_files/profile_faces/mel_minify.svg','index.html'],
     //['Mahmoud', LAT, LONG, './index_files/profile_faces/mahmoud_minify.svg','index.html'],
     ['Omena', 29.748075, -95.572011, './index_files/profile_faces/omena_minify.svg','index.html']
   ];
