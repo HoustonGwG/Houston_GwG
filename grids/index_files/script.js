@@ -42,7 +42,16 @@ var markers = [];
 //Create array containing coordinate informations
 var list = [
     ['Ross', 29.740582, -95.4515725, './index_files/profile_faces/ross_minify.svg', 'index.html'],
-    ['Frances', 29.4947986, -95.09110620000001, './index_files/profile_faces/ross_minify.svg', 'index.html']
+    ['Frances', 29.4947986, -95.09110620000001, './index_files/profile_faces/ross_minify.svg', 'index.html'],
+    ['Sarah', 29.703553, -95.499106, './index_files/profile_faces/sarah_minify.svg','index.html'],
+    ['Erica', 29.803962, -95.397720, './index_files/profile_faces/erica_minify.svg','index.htm'],
+    ['Yara', 29.747440, -95.586540, './index_files/profile_faces/yara_minify.svg','index.html'],
+    ['Kyle', 29.533487, -95.205966, './index_files/profile_faces/kyle_minify.svg','index.html'],
+    ['Richard', 29.946598, -95.688767, './index_files/profile_faces/richard_minify.svg','index.html'],
+    ['Lou', 29.703400, -95.861848, './index_files/profile_faces/lou_minify.svg','index.html'],
+    ['Melanie', 29.737676, -95.500878, './index_files/profile_faces/melanie_minify.svg','index.html'],
+    //['Mahmoud', LAT, LONG, './index_files/profile_faces/mahmoud_minify.svg','index.html'],
+    ['Omena', 29.748075, -95.572011, './index_files/profile_faces/omena_minify.svg','index.html']
   ];
 
 //Function to initialize map
@@ -50,13 +59,13 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
-  
+
   var bounds = new google.maps.LatLngBounds();
- 
+
 
 //Iterate through array of locations
   list.forEach(function (data, index, array) {
-   
+
     //Create marker from each location in list
     var marker = new google.maps.Marker({
       position: new google.maps.LatLng(list[index][1], list[index][2]),
@@ -65,15 +74,18 @@ function initMap() {
 
     //Add event listeners for clicking on markers/map so infowindow opens/closes
     var infowindow = new google.maps.InfoWindow();
+
+
     google.maps.event.addListener(map, 'click', function() {
       infowindow.close();
-    });
-
+      });
     google.maps.event.addListener(marker, 'click', (function(marker, index){
       return function() {
+
         var content=list[index][0]+'<br><br><a href="' + list[index][4] + '">' + '<img src="'+list[index][3]+ '" style="width:125px;"></a>';
         infowindow.setContent(content);
         infowindow.open(map, marker);
+
       }
     })(marker,index));
 
@@ -109,7 +121,7 @@ pops up. */
   }
 } */
 
-/* 
+/*
 * Change tab color on navbar depending on the active page
 * Can't change :hover CSS because that's a pseudoselector and not an actual DOM element
 * Fixed aesthetic issue associated with :hover problem via 'li a' spacing
