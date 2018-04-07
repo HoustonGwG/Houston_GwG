@@ -4,7 +4,6 @@ header {
 }
 
 
-
 /* Grid styles -------------------------------------------------*/
 .cards {
   display: grid;
@@ -24,6 +23,7 @@ header {
   background-color: #333;
 }
 
+/* Banner and logo styling -------------------------------------*/
 .GWG_logo {
   display: inline-block;
   vertical-align: top;
@@ -59,7 +59,7 @@ header {
 
 .leading {
   height: 12em;
-  margin-bottom: 0em;
+  margin-bottom: 0;
   padding: 0em;
   color: white;
   background-image: url('JohannesburgArtisticSilhouette.svg');
@@ -70,19 +70,23 @@ header {
   text-shadow: 0px 0px 5px #000;
 }
 
-
 .leading-text {
   max-width: 900px;
   font-size: 1.2em;
   line-height: 1.4em;
 }
 
+/* Navigation bar styling -------------------------------------- */
+
 .navbar {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 15px;
+  margin-bottom: 30px;
+  padding: 5px;
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
@@ -95,19 +99,18 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
+  margin-left: 2px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #BDBDBD;
 }
 
-.active {
-  background-color: #4CAF50;
-}
+/* Map styling ------------------------------------------------------- */
 
 #map {
   height: 100%;
@@ -116,9 +119,11 @@ li a:hover {
 .map-canvas {
   height: 500px;
   width: 500px;
-  margin: 0 auto 30px;
+  margin: 30px auto 30px;
   padding: 0px
 }
+
+/* Profile card styling ---------------------------------------------- */
 
 .cards {
   max-width: 960px;
@@ -136,10 +141,27 @@ article {
   object-fit: cover;
 }
 
-svg:hover path {
+/*FRANCES IS TESTING THINGS*/
+
+/*svg:hover path {
   stroke: blue;
+}*/
+
+.bluesvg:hover path {
+  stroke: rgba(57, 129, 243, 1);
 }
 
+.redsvg:hover path {
+  stroke: rgba(230, 39, 25, 1);
+}
+
+.yellowsvg:hover path {
+  stroke: rgba(240, 181, 5, 1);
+}
+
+.greensvg:hover path {
+  stroke: rgba(50, 164, 81, 1);
+}
 
 .article-title {
   position: absolute;
@@ -149,6 +171,27 @@ svg:hover path {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.article-img:hover ~ .article-title {
+/*.article-img:hover ~ .article-title {
   background-color: rgba(200, 200, 255, 0.8);
+  color: blue;
+}*/
+
+.bluesvg:hover ~ .article-title {
+  background-color: rgba(159, 193, 249, 0.8);
+  color: rgba(57, 129, 243, 1);
+}
+
+.redsvg:hover ~ .article-title {
+  background-color: rgba(243, 156, 149, 0.8);
+  color: rgba(230, 39, 25, 1);
+}
+
+.yellowsvg:hover ~ .article-title {
+  background-color: rgba(253, 225, 140, 0.8);
+  color: rgba(240, 181, 5, 1);
+}
+
+.greensvg:hover ~ .article-title {
+  background-color: rgba(126, 215, 150, 0.8);
+  color: rgba(50, 164, 81, 1);
 }
