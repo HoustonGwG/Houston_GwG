@@ -39,28 +39,62 @@ var geocoder;
 var map;
 var markers = [];
 
+//Create array containing coordinate informations
+var list = [
+    ['Ross', 29.740582, -95.4515725, './index_files/profile_faces/ross_minify.svg', 'index.html'],
+    ['Frances', 29.4947986, -95.09110620000001, './index_files/profile_faces/ross_minify.svg', 'index.html']
+  ];
+
+//Function to initialize map
 function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
+  var map = new google.maps.Map(document.getElementById('map'), {
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
-  list = [
-    [29.740582, -95.4515725],
-    [29.4947986, -95.09110620000001]
-  ];
+  
   var bounds = new google.maps.LatLngBounds();
-  list.forEach(function (data, index, array) {
+ 
 
+//Iterate through array of locations
+  list.forEach(function (data, index, array) {
+   
+    //Create marker from each location in list
     var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(list[index][0], list[index][1]),
+      position: new google.maps.LatLng(list[index][1], list[index][2]),
       map: map
     });
+
+    //Add event listeners for clicking on markers/map so infowindow opens/closes
+    var infowindow = new google.maps.InfoWindow();
+    google.maps.event.addListener(map, 'click', function() {
+      infowindow.close();
+    });
+
+    google.maps.event.addListener(marker, 'click', (function(marker, index){
+      return function() {
+        var content=list[index][0]+'<br><br><a href="' + list[index][4] + '">' + '<img src="'+list[index][3]+ '" style="width:125px;"></a>';
+        infowindow.setContent(content);
+        infowindow.open(map, marker);
+      }
+    })(marker,index));
+
+    //Creates array of markers
     markers.push(marker);
 
+    //Sets bounds for map
     bounds.extend(marker.position);
+
   });
+
   map.fitBounds(bounds);
 
+  google.maps.event.addDomListener(window, 'load', initMap);
+
+  function myClick(id) {
+    google.maps.event.trigger(markers[id], 'click');
+  };
+
 }
+
 
 /* FRANCES NOTE: Rearranging placement of things on the website. As a result,
 changing map animation so there is a bounce upon clicking + someone's image
@@ -78,11 +112,11 @@ pops up. */
 /* 
 * Change tab color on navbar depending on the active page
 * Can't change :hover CSS because that's a pseudoselector and not an actual DOM element
+* Fixed aesthetic issue associated with :hover problem via 'li a' spacing
 */
 
-var activePage = $('.active').text();
 
-console.log(activePage);
+var activePage = $('.active').text();
 
 switch (activePage) {
     case 'Home':
