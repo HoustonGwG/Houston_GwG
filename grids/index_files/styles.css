@@ -136,9 +136,11 @@ article {
   object-fit: cover;
 }
 
-svg:hover path {
+/*FRANCES IS TESTING SOMETHING*/
+
+/* svg:hover path { 
   stroke: blue;
-}
+} */ 
 
 
 .article-title {
@@ -150,5 +152,6 @@ svg:hover path {
 }
 
 .article-img:hover ~ .article-title {
-  background-color: rgba(200, 200, 255, 0.8);
+  background-color: rgba(200, 200, 255, 0.8)
+  color: blue;
 }

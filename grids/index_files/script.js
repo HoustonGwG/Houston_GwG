@@ -30,6 +30,41 @@ jQuery('img.article-img').each(function(){
 
   }, 'xml');
 
+  // Change hover color depending on image order (to follow Google coloration pattern)
+
+  switch(imgURL) {
+    case './index_files/profile_faces/erica_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: blue};</style>');
+      break;
+    case './index_files/profile_faces/frances_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: red};</style>');
+      break;
+    case './index_files/profile_faces/kyle_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: yellow};</style>');
+      break;
+    case './index_files/profile_faces/lou_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: blue};</style>');
+      break;
+    case './index_files/profile_faces/mahmoud_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: green};</style>');
+      break;
+    case './index_files/profile_faces/omena_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: red};</style>');
+      break;
+    case './index_files/profile_faces/richard_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: blue};</style>');
+      break;
+    case './index_files/profile_faces/ross_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: red};</style>');
+      break;
+    case './index_files/profile_faces/sarah_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: yellow};</style>');
+      break;
+    case './index_files/profile_faces/yara_minify.svg':
+      $svg.append('<style>svg:hover path{stroke: blue};</style>');
+      break;
+  }
+
 });
 
 /*
