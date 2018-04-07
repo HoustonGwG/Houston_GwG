@@ -89,9 +89,6 @@ function initMap() {
       }
     })(marker,index));
 
-
-
-
     //Creates array of markers
     markers.push(marker);
 
