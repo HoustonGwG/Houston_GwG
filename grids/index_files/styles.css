@@ -23,6 +23,19 @@ header {
   background-color: #333;
 }
 
+.about_us_welcome {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about_p {
+  font-size: 1em;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
 /* Banner and logo styling -------------------------------------*/
 .GWG_logo {
   display: inline-block;
