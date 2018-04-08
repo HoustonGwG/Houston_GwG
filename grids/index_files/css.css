@@ -31,6 +31,10 @@
 }
 
 .profile-links {
-  float: center;
-  display: block;
+  margin-left: 575px;
+  margin-bottom: 100px;
+}
+
+.about_p {
+  text-align: center;
 }
