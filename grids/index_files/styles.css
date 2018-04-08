@@ -11,6 +11,44 @@ header {
   grid-gap: 30px;
 }
 
+.profileheader {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+@media (min-width: 700px) {
+
+  .profilepic {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    object-fit: cover;
+  }
+
+  .profileheadertext {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
+
+  .profiletext {
+    margin-top: 105px;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 700px) {
+  .profilepic {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .profilename {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+}
 
 /* Generic styles ----------------------------------------------*/
 body {
@@ -23,17 +61,86 @@ header {
   background-color: #333;
 }
 
+/* About Us page styling --------------------------------------*/
 .about_us_welcome {
   font-size: 2em;
   text-align: center;
   margin-bottom: 30px;
 }
 
-.about_p {
+.aboutus {
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
+.aboutus_p {
   font-size: 1em;
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+/* Profile page styling -------------------------------------*/
+.profilename {
+  font-size: 2em;
+  margin-bottom: 30px;
+  margin-top: 75px;
+  margin-left: 60px;
+}
+
+.profilelinks-fc {
+  font-size: 1em;
+  margin-bottom: 60px;
+  margin-left: 45px;
+}
+
+.profiletagline {
+  font-size: 1em;
+  font-style: italic;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.profiletext-p {
+  font-size: 1em;
+  margin: 30px 120px 30px 60px;
+  max-width: 800px;
+}
+
+.linkb {
+  color: rgba(57, 129, 243, 1);
+}
+
+.linkg {
+  color: rgba(50, 164, 81, 1);
+}
+
+.linky {
+  color: rgba(240, 181, 5, 1);
+}
+
+.linkr {
+  color: rgba(50, 164, 81, 1);
+}
+
+.link1 a:hover {
+  background-color: rgba(159, 193, 249, 0.8);
+  color: rgba(57, 129, 243, 1);
+}
+
+.link2 a:hover {
+  background-color: rgba(126, 215, 150, 0.8);
+  color: rgba(50, 164, 81, 1);
+}
+
+.link3 a:hover {
+  background-color: rgba(253, 225, 140, 0.8);
+  color: rgba(240, 181, 5, 1);
+}
+
+.link4 a:hover {
+  background-color: rgba(126, 215, 150, 0.8);
+  color: rgba(50, 164, 81, 1);
 }
 
 /* Banner and logo styling -------------------------------------*/
@@ -90,7 +197,6 @@ header {
 }
 
 /* Navigation bar styling -------------------------------------- */
-
 .navbar {
   list-style-type: none;
   margin: 15px;
@@ -124,7 +230,6 @@ li a:hover {
 }
 
 /* Map styling ------------------------------------------------------- */
-
 #map {
   height: 100%;
 }
@@ -137,7 +242,6 @@ li a:hover {
 }
 
 /* Profile card styling ---------------------------------------------- */
-
 .cards {
   max-width: 960px;
   margin: 0 auto 30px;
@@ -153,12 +257,6 @@ article {
   max-height: 100%;
   object-fit: cover;
 }
-
-/*FRANCES IS TESTING THINGS*/
-
-/*svg:hover path {
-  stroke: blue;
-}*/
 
 .bluesvg:hover path {
   stroke: rgba(57, 129, 243, 1);
@@ -183,11 +281,6 @@ article {
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8);
 }
-
-/*.article-img:hover ~ .article-title {
-  background-color: rgba(200, 200, 255, 0.8);
-  color: blue;
-}*/
 
 .bluesvg:hover ~ .article-title {
   background-color: rgba(159, 193, 249, 0.8);

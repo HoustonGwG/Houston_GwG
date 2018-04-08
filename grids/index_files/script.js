@@ -42,7 +42,7 @@ var markers = [];
 //Create array containing coordinate informations
 var list = [
     ['Ross', 29.740582, -95.4515725, './index_files/profile_faces/ross_minify.svg', 'index.html'],
-    ['Frances', 29.4947986, -95.09110620000001, './index_files/profile_faces/frances_minify.svg', 'index.html'],
+    ['Frances', 29.4947986, -95.09110620000001, './index_files/profile_faces/frances_minify.svg', 'about-frances.html'],
     ['Sarah', 29.703553, -95.499106, './index_files/profile_faces/sarah_minify.svg','index.html'],
     ['Erica', 29.803962, -95.397720, './index_files/profile_faces/erica_minify.svg','index.htm'],
     ['Yara', 29.747440, -95.586540, './index_files/profile_faces/yara_minify.svg','index.html'],
