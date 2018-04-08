@@ -291,6 +291,7 @@ article {
   width: 100%;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 
 .bluesvg:hover ~ .article-title {
