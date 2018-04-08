@@ -1,0 +1,57 @@
+/* place your css here */
+
+.richard-pic {
+    float: left;
+    border: 4px solid #73AD21;
+	border-radius: 25px 25px 25px 25px;
+	zoom: 25%;
+}
+
+.the-grid {
+	display: grid;
+	grid-template-columns: auto;
+	grid-gap: 20px;
+	grid-auto-rows: auto;
+}
+
+.one {
+	grid-column: 1;
+	grid-row: 1;
+	padding-left: 10px;
+}
+
+.two {
+	background-color: C9D5B9;
+	grid-column: 2;
+	grid-row: 1;
+	border: 2px solid #73AD21;
+	border-radius: 15px 15px 15px 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.three {
+	background-color: C9D5B9;
+	grid-column: 2;
+	grid-row: 2;
+	border: 2px solid #73AD21;
+	border-radius: 15px 15px 15px 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+li {
+	list-style-type: circle;
+}
+
+p {
+	text-align: center;
+}
