@@ -14,24 +14,24 @@ html {
     font-size: 20px;
 }
 
-ul {
- list-style-type: none;
- margin: 0;
- padding: 0;
- overflow: hidden;
- background-color:#0F0F1E;
+nav ul {
+	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	background-color:#0F0F1E;
 }
 
-li {
- float: left;
+nav li {
+ 	float: left;
 }
 
-li a {
- display: block;
- color: white;
- text-align: center;
- padding: 10px 10px;
- background-color:#0F0F1E;
+nav li a {
+	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 10px 10px;
+  	background-color:#0F0F1E;
 }
 
 .profile-pic {
