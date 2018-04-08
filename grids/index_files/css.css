@@ -40,16 +40,10 @@
   justify-content: center;
 }
 
-.link1 a:hover {
-  background-color: rgba(159, 193, 249, 0.8);
-  color: rgba(57, 129, 243, 1);
-}
-
-.link2 a:hover {
-  background-color: rgba(126, 215, 150, 0.8);
-  color: rgba(50, 164, 81, 1);
-}
-
 .about_p {
   text-align: center;
+  font-size: 1em;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
