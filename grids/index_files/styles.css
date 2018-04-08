@@ -196,6 +196,17 @@ header {
   line-height: 1.4em;
 }
 
+/* Footer styling ---------------------------------------------- */
+
+.footer {
+  border-top: 1px solid black;
+  font-size: 0.75em;
+}
+
+.footerp {
+  margin: 15px 30px 60px 30px;
+}
+
 /* Navigation bar styling -------------------------------------- */
 .navbar {
   list-style-type: none;
