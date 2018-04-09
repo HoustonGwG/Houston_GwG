@@ -23,7 +23,9 @@ $('#email').hover( () => {
 
 
 $(document).ready( () => {
-	const $myPic = $('.profile-pic');
+	const $myPic = $('svg.profile-pic path');
 	
-	$myPic.css('backgound-color', 'green');
+	$myPic.css('stroke', 'rgba(230, 39, 25, 1)');
 })
+
+

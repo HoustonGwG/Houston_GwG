@@ -109,6 +109,7 @@ nav li a:hover {
 }
 
 
+
 /* Responsive Media Queries
 ===============================*/
 
@@ -166,5 +167,49 @@ nav li a:hover {
 
 @media only screen and (min-width: 75em) {
 /*	desktop styles go here */
-	
+	.grid-contain {
+		display: grid;
+		grid-template: 400px 300px / 1fr 1fr;
+		grid-column-gap: 50px;
+	}
+
+	.profile-pic {
+		width: 400px;
+		grid-column-start: 1;
+		justify-self: end;
+		align-self: center;
+		border-radius: 50%;
+		border: 5px solid black;
+	}
+
+	.profile-links {
+		grid-column-start: 2;
+		justify-self: start;
+		align-self: center;
+		list-style-type: none;
+	}
+
+	.profile-links li img {
+		vertical-align:middle;
+		margin: 0.3em;
+	}
+
+	#logo {
+		width: 70px;
+	}
+
+
+	.aboutMe-text {
+		grid-column-start: 1;
+		grid-column-end: span 2;
+		max-width: 900px;
+		min-width: 200px;
+	/*	margin: 50px;*/
+		align-self: center;
+		justify-self: center;
+	}
+
+	.aboutMe-text h2 {
+		text-align: center;
+	}
 }
