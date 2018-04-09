@@ -71,12 +71,12 @@ header {
 }
 
 .leading {
-  height: 12em;
+  height: 10em;
   margin-bottom: 0;
   padding: 0em;
   color: white;
   background-image: url('JohannesburgArtisticSilhouette.svg');
-  background-position: center;
+  background-position: center bottom;
   background-color:  #fff;
   background-repeat: no-repeat;
   background-size: cover;
