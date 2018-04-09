@@ -73,8 +73,8 @@ nav li a:hover {
 	grid-column-start: 1;
 	justify-self: end;
 	align-self: center;
-	border-radius: 50%;
-	border: 5px solid black;
+/*	border-radius: 50%;*/
+/*	border: 5px solid black;*/
 }
 
 .profile-links {
@@ -108,10 +108,20 @@ nav li a:hover {
 	text-align: center;
 }
 
-.profile-pic path {
+
+.red path {
 	stroke: red;
 }
 
+/*
+.blue path {
+	stroke: blue;
+}
+
+.green path {
+	stroke: green;
+}
+*/
 
 
 /* Responsive Media Queries
@@ -171,6 +181,7 @@ nav li a:hover {
 
 @media only screen and (min-width: 75em) {
 /*	desktop styles go here */
+/*
 	.grid-contain {
 		display: grid;
 		grid-template: 400px 300px / 1fr 1fr;
@@ -208,7 +219,7 @@ nav li a:hover {
 		grid-column-end: span 2;
 		max-width: 900px;
 		min-width: 200px;
-	/*	margin: 50px;*/
+		margin: 50px;
 		align-self: center;
 		justify-self: center;
 	}
@@ -216,4 +227,5 @@ nav li a:hover {
 	.aboutMe-text h2 {
 		text-align: center;
 	}
+*/
 }
