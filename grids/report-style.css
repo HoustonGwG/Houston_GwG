@@ -1,80 +1,81 @@
 #report-container {
 	display: grid;
 	grid-template-columns: auto;
-	grid-gap: 20px;
+	grid-gap: 1em;
 	grid-auto-rows: auto;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
 }
 
 #report-title {
+	border-bottom: 2px solid #5F6368;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 0.5em;
+}
+
+#report-box {
 	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-radius: 1.5em 1.5em 1.5em 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	box-shadow: 0.2em 0.2em 1.25em slategrey;
+	
 }
 
 #abstract {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-bottom: 1px solid #5F6368;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
 
 #introduction {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-bottom: 1px solid #5F6368;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
 
 #background-info {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-bottom: 1px solid #5F6368;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
 
 #methodology {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-bottom: 1px solid #5F6368;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
 
 #questions {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-bottom: 1px solid #5F6368;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
 
 #discussion {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	border-bottom: 1px solid #5F6368;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.4em;
+	padding-top: 0.4em;
 }
 
 #conclusion {
-	border: 2px solid #5F6368;
-	border-radius: 25px 25px 25px 25px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 5px;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+	padding-bottom: 0.6em;
+	padding-top: 0.4em;
 }
 
 p {
