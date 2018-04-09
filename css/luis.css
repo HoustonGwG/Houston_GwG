@@ -73,8 +73,8 @@ nav li a:hover {
 	grid-column-start: 1;
 	justify-self: end;
 	align-self: center;
-/*	border-radius: 50%;*/
-/*	border: 5px solid black;*/
+	border-radius: 50%;
+	border: 5px solid black;
 }
 
 .profile-links {
