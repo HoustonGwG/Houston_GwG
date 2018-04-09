@@ -67,7 +67,7 @@ nav li a:hover {
 ===============================*/
 .grid-contain {
 	display: grid;
-	grid-template: 400px 300px / 1fr 1fr;
+	grid-template: 360px 300px / 1fr 1fr;
 	grid-column-gap: 80px;
 }
 
