@@ -6,77 +6,101 @@
 }
 
 #report-title {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
-	padding-right: 10px;	
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #abstract {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #introduction {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #background-info {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #methodology {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #questions {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #discussion {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 #conclusion {
-	border: 2px solid #73AD21;
+	border: 2px solid #5F6368;
 	border-radius: 25px 25px 25px 25px;
 	padding-left: 10px;
 	padding-right: 10px;
-}
-
-body {
-    font-family: 'Quicksand', sans-serif;
-}
-
-h2 {
-	text-align: center;
-}
-
-h3 {
-	text-align: center;
-}
-
-h4 {
-	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 5px;
 }
 
 p {
 	text-indent: 1em;
+}
+
+.numbered-list {
+	list-style: list-style: circle || decimal;
+	text-align: center;
+}
+
+.report-author {
+	1.12em;
+	text-align: center;
+}
+
+.report-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	text-align: center;
+}
+
+.section-headers {
+	font-size: 1.17em;
+	font-weight: bold;
+	padding-bottom: 0.2em;
+	text-align: center;
 }
