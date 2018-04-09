@@ -23,9 +23,10 @@ $('#email').hover( () => {
 
 
 $(document).ready( () => {
-	const $myPic = $('svg.profile-pic path');
-	
-	$myPic.css('stroke', 'rgba(230, 39, 25, 1)');
+	console.log('on ready working!')
+//	const $myPic = $('.profile-pic');
+//	$myPic.hide();
+	$('img/lou_minify.svg g').css('stroke', '#e1f102');
 })
 
 

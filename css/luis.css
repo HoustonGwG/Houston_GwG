@@ -108,6 +108,10 @@ nav li a:hover {
 	text-align: center;
 }
 
+.profile-pic path {
+	stroke: red;
+}
+
 
 
 /* Responsive Media Queries
