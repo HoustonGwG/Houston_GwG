@@ -18,11 +18,14 @@ html {
 
 h1 {
     text-align: center;
+	font-family: Gabriela, "Times New Roman", serif;
 }
 
 p {
 /*    text-align: center;*/
+	font-family: Cabin, Arial, monospace;
 	margin: 10px;
+	line-height: 1.4em;
 }
 
 /* Navigation bar styling -------------------------------------- */
@@ -65,7 +68,7 @@ nav li a:hover {
 .grid-contain {
 	display: grid;
 	grid-template: 400px 300px / 1fr 1fr;
-	grid-column-gap: 50px;
+	grid-column-gap: 80px;
 }
 
 .profile-pic {
@@ -228,4 +231,16 @@ nav li a:hover {
 		text-align: center;
 	}
 */
+}
+
+
+/* Footer styling ---------------------------------------------- */
+
+.footer {
+  border-top: 1px solid black;
+  font-size: 0.75em;
+}
+
+.footerp {
+  margin: 15px 30px 60px 30px;
 }
