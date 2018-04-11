@@ -1,0 +1,89 @@
+/* design your own profile page here */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+html {
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+/* navigation bar styling -----------------*/
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.nav-bar li{
+    float: left;
+    list-style-type: none;
+}
+.nav-bar a:hover {
+    background-color: #0057e7;
+    color: white;
+}
+.nav-bar a{
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    padding: 14px 16px;
+    color: black;
+    text-decoration: none;
+    background-color:white;
+    font-size: 20px;
+}
+/* Profile image------------------------ */
+#img {
+    width: 20em;
+    max-width: 300px;
+    margin: 30px; 
+    align-content: center;
+    border-style: solid;
+    border-color: #008744 #0057e7 #d62d20 #ffa700; 
+    border-radius: 200px 200px 200px 200px;
+         
+}
+/* Top grid ---------------- */
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+}
+.pf-description li{
+    list-style-type: none;
+}
+.pf-description img{
+    max-width: 30px;
+}
+.pf-description {
+    font-weight: bold;
+    margin-top: 5em;
+
+   
+}
+/* paragraph content styling------------------- */
+.content{
+    display: flex;
+    font-size: 20px;
+    padding: 30px;
+    text-align: left;
+    
+}
+.content div{
+   align-content: center;
+    
+}
+
+.footerp {
+    border-top-style: solid;
+    border-color: #0057e7 #008744 #d62d20 #ffa700;
+}
