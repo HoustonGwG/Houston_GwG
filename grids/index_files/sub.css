@@ -1,5 +1,11 @@
+a {
+  text-decoration: none;
+  color: #FBFF12;
+}
+
 body {
   background-color: #FBFF12;
+  margin: 0 auto;
 }
 
 html {
@@ -55,6 +61,8 @@ p {
   display: block;
   border: 5px solid #41EAD4;
   object-fit: cover;
+  width: 80%;
+  background-color: white;
 }
 
 .section-1 {
@@ -80,3 +88,10 @@ ul {
   overflow: hidden;
   background-color:#0F0F1E;
 }
+
+@media only screen and (max-width: 750px) {
+.section-2 {
+  flex-direction: column;
+  }
+}
+
