@@ -82,3 +82,8 @@ html {
    align-content: center;
     
 }
+
+.footerp {
+    border-top-style: solid;
+    border-color: #0057e7 #008744 #d62d20 #ffa700;
+}
