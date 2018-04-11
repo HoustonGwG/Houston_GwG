@@ -23,11 +23,6 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-@media all and (max-width: 399px) {
-   body{
-       font-size: 4vmin;
-   }
-
 .center-content {
   text-align: center;
   align-items: center
@@ -45,10 +40,16 @@
   justify-content: center;
 }
 
+.link1 a:hover {
+  background-color: rgba(159, 193, 249, 0.8);
+  color: rgba(57, 129, 243, 1);
+}
+
+.link2 a:hover {
+  background-color: rgba(126, 215, 150, 0.8);
+  color: rgba(50, 164, 81, 1);
+}
+
 .about_p {
   text-align: center;
-  font-size: 1em;
-  margin-left: 30px;
-  margin-right: 30px;
-  margin-bottom: 30px;
 }
