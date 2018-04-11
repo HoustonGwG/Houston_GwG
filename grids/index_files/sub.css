@@ -92,7 +92,7 @@ ul {
   overflow: hidden;
   background-color:#0F0F1E;
   disply: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 @media only screen and (max-width: 750px) {
@@ -102,7 +102,7 @@ ul {
   }
   
   ul {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
