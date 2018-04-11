@@ -1,0 +1,82 @@
+body {
+  background-color: #FBFF12;
+}
+
+html {
+  font-family: 'Short Stack', cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Rammetto One', cursive;
+  font-size: 2em;
+  color: #FF206E;
+  text-shadow: 2px 2px #41EAD4;
+}
+
+h2 {
+  color: #0C0F0A;
+  background-color: #FFFFFF;
+  width: 200px;
+  padding: 10px;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #41EAD4;
+  text-shadow: 1px 1px #FF206E;
+}
+
+.header-fonts {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  background-color: #41EAD4;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.profile-links {
+  text-align: center;
+  display: inline;
+}
+
+.profile-pic {
+  margin: 35px auto;
+  display: block;
+  border: 5px solid #41EAD4;
+  object-fit: cover;
+}
+
+.section-1 {
+  margin: auto;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section-3 {
+  background-color: #FF206E;
+  box-shadow: 5px 5px #41EAD4;
+  margin: 35px;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#0F0F1E;
+}
