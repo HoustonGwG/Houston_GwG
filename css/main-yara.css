@@ -61,8 +61,10 @@ html {
 .pf-description li{
     list-style-type: none;
 }
+.pf-description img{
+    max-width: 30px;
+}
 .pf-description {
-    
     font-weight: bold;
     margin-top: 5em;
 
