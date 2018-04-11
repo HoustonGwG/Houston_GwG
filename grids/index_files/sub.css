@@ -91,7 +91,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color:#0F0F1E;
-  disply: flex;
+  display: flex;
   flex-direction: row;
 }
 
