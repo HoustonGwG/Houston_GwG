@@ -78,6 +78,7 @@ nav li a:hover {
 	align-self: center;
 	border-radius: 50%;
 	border: 5px solid black;
+	margin-top: 50px;
 }
 
 .profile-links {
@@ -85,6 +86,7 @@ nav li a:hover {
     justify-self: start;
 	align-self: center;
 	list-style-type: none;
+	
 }
 
 .profile-links li img {
@@ -114,6 +116,7 @@ nav li a:hover {
 
 .red path {
 	stroke: red;
+	background-color: aqua;
 }
 
 /*
@@ -126,6 +129,20 @@ nav li a:hover {
 }
 */
 
+.anim {
+	visibility: visible;
+	animation-name: slide-in;
+	animation-duration: 10s;
+  	animation-timing-function: ease-in;
+  	-webkit-animation-name: slide-in;
+  	-webkit-animation-duration: 10s;
+  	-webkit-animation-timing-function: ease-in;
+}
+
+@keyframes slide-in{
+    from {transform: translate(50%, 0%);}
+    to {transform: translate(0%, 0%);}
+}
 
 /* Responsive Media Queries
 ===============================*/
@@ -156,14 +173,33 @@ nav li a:hover {
 
 @media only screen and (min-width: 20em) and (max-width: 36em) {
 /*	mobile styles go here */
-
+	div.grid-contain {
+		grid-template: 1fr 1fr 1fr / 1fr;
+		grid-column-gap: 0px;
+	}
+	
+	.profile-links {
+		grid-column-start: 1;
+		justify-self: center;
+	}
+	
+	.profile-pic {
+		width: 275px;
+		grid-column-start: 1;
+		justify-self: center;
+	}
+	
+	.aboutMe-text {
+		grid-column-start: 1;
+		padding: 2em;
+	}
 }
 
 /*@media only screen and (min-width: 36em) and (max-width: 52em) {*/
-@media (min-width: 750px) {
+@media only screen and (min-width: 36em) and (max-width: 48em) {
 /*	tablet styles go here*/
 	.grid-contain {
-		
+		grid-column-gap: 40px;
 	}
 	
 	.profile-links {
@@ -171,13 +207,14 @@ nav li a:hover {
 	}
 	
 	.profile-pic {
-		width: 350px;
+		width: 300px;
 		grid-column-start: 1;
 	}
 	
 	.aboutMe-text {
 		grid-column-start: 1;
 		grid-column-end: span 2;
+		padding: 1.5em;
 	}
 }
 
@@ -231,6 +268,59 @@ nav li a:hover {
 		text-align: center;
 	}
 */
+}
+
+/* Banner and logo styling -------------------------------------*/
+.GWG_logo {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+
+}
+
+.GWG_fig {
+  max-width: 40%;
+  align-self: flex-start;
+  display: inline-block;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 700px) {
+
+  .GWG_logo {
+    width: 280px;
+  }
+
+  .GWG_fig {
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+}
+
+.logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.leading {
+  height: 10em;
+  margin-bottom: 0;
+  padding: 0em;
+  color: white;
+  background-image: url('../grids/index_files/JohannesburgArtisticSilhouette.svg');
+  background-position: center bottom;
+  background-color:  #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 0px 0px 5px #000;
+}
+
+.leading-text {
+  max-width: 900px;
+  font-size: 1.2em;
+  line-height: 1.4em;
 }
 
 
