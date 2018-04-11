@@ -51,7 +51,6 @@ li a:hover {
 }
 
 p {
-  text-align: center;
   color: white;
 }
 
@@ -90,7 +89,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#0F0F1E;
+  background-color: #FF206E;
   display: flex;
   flex-direction: row;
 }
