@@ -38,6 +38,7 @@ jQuery('img.article-img').each(function(){
 var geocoder;
 var map;
 var markers = [];
+var prev_infowindow =false;
 
 //Create array containing coordinate informations
 var list = [
@@ -79,11 +80,17 @@ function initMap() {
     google.maps.event.addListener(map, 'click', function() {
       infowindow.close();
       });
+
+
     google.maps.event.addListener(marker, 'click', (function(marker, index){
       return function() {
+        if( prev_infowindow ) {
+          prev_infowindow.close();
+        }
 
         var content=list[index][0]+'<br><br><a href="' + list[index][4] + '">' + '<img src="'+list[index][3]+ '" style="width:125px;"></a>';
         infowindow.setContent(content);
+        prev_infowindow = infowindow;
         infowindow.open(map, marker);
 
       }
