@@ -1,23 +1,9 @@
-$('.profile-links li span').hide();
+$('ul.profile-links li span').hide();
 
-$('#logo').hover( () => {
-	const $logoToggle = $('#mylogo');
-	$logoToggle.slideToggle();
-});
+$('ul.profile-links li').hover( (event) => {
+	$(event.currentTarget).children("span").slideToggle(600);
+	$(event.currentTarget).children("span").toggleClass('anim');
 
-$('#github').hover( () => {
-	const $githubToggle = $('#mygithub');
-	$githubToggle.slideToggle();
-});
-
-$('#linkedin').hover( () => {
-	const $linkedinToggle = $('#mylinkedin');
-	$linkedinToggle.slideToggle();
-});
-
-$('#email').hover( () => {
-	const $emailToggle = $('#myemail');
-	$emailToggle.slideToggle();
 });
 
 
@@ -49,41 +35,18 @@ $('#email').hover( () => {
 //			$img.replaceWith($svg);
 //
 //		  }, 'xml');
-//
-//		});
+//	});
 	
 	
-	
-//	console.log('on ready working!');
-
-//	setInterval(changePicColor(randomNumber), 10000);
-//	changePicColor(randomNumber);
+//	$('.profile-pic').addClass('red')
+////	$("g").css("stroke", "blue");
+//	
+//	$('svg.profile-pic.replaced-svg').find('g').css('stroke', '#acac33');
 //});
 
 
-//let $blueChange = $("g").css("stroke", "blue");
-//let $redChange = $("g").css("stroke", "red");
-//let $greenChange = $("g").css("stroke", "green");
-//
-//function changePicColor(randNum) {
-//	switch (randNum) {
-//    case 0:
-//        $blueChange
-//		console.log("blue");
-//        break;
-//    case 1:
-//        $redChange
-//		console.log("red");
-//        break;
-//    case 2:
-//        $greenChange
-//		console.log("green");
-//        break;
-//	}
-//}
-//
-//var randomNumber = Math.floor(Math.random() * 3);
-//console.log(randomNumber);
+
+//	console.log('on ready working!');
 
 
 

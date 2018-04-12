@@ -11,6 +11,10 @@ header {
   grid-gap: 30px;
 }
 
+body {
+  font-size: calc(12px + 8 * ((100vw - 320px) / 680));
+}
+
 .profileheader {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
