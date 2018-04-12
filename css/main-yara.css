@@ -30,6 +30,9 @@ html {
     background-color: #0057e7;
     color: white;
 }
+.nav-bar a:active {
+    background-color: #008744 ;
+}
 .nav-bar a{
     text-align: center;
     font-size: 18px;
@@ -62,17 +65,19 @@ html {
     list-style-type: none;
 }
 .pf-description img{
-    max-width: 30px;
+    max-width: 40px;
 }
 .pf-description {
     font-weight: bold;
-    margin-top: 5em;
-
-   
+    margin-top: 5em;  
+}
+.github a:hover {
+    text-decoration-color: #008744;
+    color: white;
 }
 /* paragraph content styling------------------- */
 .content{
-    display: flex;
+    display: grid; 
     font-size: 20px;
     padding: 30px;
     text-align: left;
@@ -82,9 +87,13 @@ html {
    align-content: center;
     
 }
+a{
+    text-decoration: none;
+}
+/* foother styling--------------------- */
 
 .footerp {
     border-top: 2px solid;
     border-color: #ffa700;
-    padding-top: 10px;
+    padding: 20px;
 }
