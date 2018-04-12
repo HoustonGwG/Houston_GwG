@@ -9,6 +9,12 @@ html {
   margin: 0;
   padding: 0;
 }
+/* logo banner------------------------------ */
+.GWG_logo {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 50%;
+}
 /* navigation bar styling -----------------*/
 .nav-bar{
     margin: 0;
@@ -43,6 +49,9 @@ html {
     background-color:white;
     font-size: 20px;
 }
+.active {
+    background-color: #ffa700;
+}
 /* Profile image------------------------ */
 #img {
     width: 20em;
@@ -65,14 +74,14 @@ html {
     list-style-type: none;
 }
 .pf-description img{
-    max-width: 40px;
+    max-width: 35px;
 }
 .pf-description {
     font-weight: bold;
-    margin-top: 5em;  
+    margin-top: 4em;  
 }
 .github a:hover {
-    text-decoration-color: #008744;
+    background-color: #008744;
     color: white;
 }
 /* paragraph content styling------------------- */
@@ -87,13 +96,14 @@ html {
    align-content: center;
     
 }
-a{
-    text-decoration: none;
-}
+
 /* foother styling--------------------- */
 
 .footerp {
     border-top: 2px solid;
     border-color: #ffa700;
     padding: 20px;
+}
+.footerp a{
+    text-decoration: none;
 }
