@@ -82,9 +82,10 @@ html {
    align-content: center;
     
 }
+/* foother styling--------------------- */
 
 .footerp {
     border-top: 2px solid;
     border-color: #ffa700;
-    padding-top: 10px;
+    padding: 20px;
 }
