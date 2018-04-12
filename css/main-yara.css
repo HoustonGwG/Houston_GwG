@@ -80,10 +80,14 @@ html {
     font-weight: bold;
     margin-top: 4em;  
 }
+<<<<<<< HEAD
 .github a:hover {
     background-color: #008744;
     color: white;
 }
+=======
+
+>>>>>>> a66d45cb7e858ef5258e8bad5036298bdb9ee813
 /* paragraph content styling------------------- */
 .content{
     display: grid; 
