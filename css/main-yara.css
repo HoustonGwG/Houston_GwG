@@ -49,7 +49,7 @@ html {
     background-color:white;
     font-size: 20px;
 }
-.active {
+.active a{
     background-color: #ffa700;
 }
 /* Profile image------------------------ */
@@ -57,7 +57,7 @@ html {
     width: 20em;
     max-width: 300px;
     margin: 30px; 
-    align-content: center;
+    align-content: right;
     border-style: solid;
     border-color: #008744 #0057e7 #d62d20 #ffa700; 
     border-radius: 200px 200px 200px 200px;
@@ -83,7 +83,7 @@ html {
 
 /* paragraph content styling------------------- */
 .content{
-    display: grid; 
+    display: block; 
     font-size: 20px;
     padding: 30px;
     text-align: left;
