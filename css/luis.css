@@ -107,6 +107,7 @@ nav li a:hover {
 /*	margin: 50px;*/
 	align-self: center;
 	justify-self: center;
+	font-size: 1.25em;
 }
 
 .aboutMe-text h2 {
@@ -167,14 +168,50 @@ nav li a:hover {
 
 */
 @media only screen and (max-width: 20em) {
-
+		div.grid-contain {
+		grid-template: 150px 350px 370px / 1fr;
+		grid-column-gap: 0px;
+	}
 	
+	.profile-links {
+		grid-column-start: 1;
+		justify-self: center;
+		margin-left: 20px;
+	}
+	
+	.profile-links h1 {
+		font-size: 1.3em;
+	}
+	
+	.profile-pic {
+		width: 200px;
+		grid-column-start: 1;
+		justify-self: center;
+	}
+	
+	.aboutMe-text {
+		grid-column-start: 1;
+		padding: 2em;
+	}
+	
+	li img {
+		width: 30px;
+		
+	}
+	
+	img#logo {
+		width: 30px;
+	}
+	
+	.aboutMe-text {
+		font-size: 0.9em;;
+	}
 }
 
 @media only screen and (min-width: 20em) and (max-width: 36em) {
 /*	mobile styles go here */
 	div.grid-contain {
-		grid-template: 1fr 1fr 1fr / 1fr;
+		grid-template: 320px 280px 350px / 1fr;
 		grid-column-gap: 0px;
 	}
 	
