@@ -80,10 +80,7 @@ html {
     font-weight: bold;
     margin-top: 4em;  
 }
-.github a:hover {
-    background-color: #008744;
-    color: white;
-}
+
 /* paragraph content styling------------------- */
 .content{
     display: grid; 
