@@ -84,6 +84,7 @@ html {
 }
 
 .footerp {
-    border-top-style: solid;
-    border-color: #0057e7 #008744 #d62d20 #ffa700;
+    border-top: 2px solid;
+    border-color: #ffa700;
+    padding-top: 10px;
 }
