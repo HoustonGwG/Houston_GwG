@@ -49,7 +49,7 @@ html {
     background-color:white;
     font-size: 20px;
 }
-.active {
+.active a{
     background-color: #ffa700;
 }
 /* Profile image------------------------ */
@@ -57,7 +57,7 @@ html {
     width: 20em;
     max-width: 300px;
     margin: 30px; 
-    align-content: center;
+    align-content: right;
     border-style: solid;
     border-color: #008744 #0057e7 #d62d20 #ffa700; 
     border-radius: 200px 200px 200px 200px;
@@ -80,18 +80,10 @@ html {
     font-weight: bold;
     margin-top: 4em;  
 }
-<<<<<<< HEAD
-.github a:hover {
-    background-color: #008744;
-    color: white;
-}
-=======
-
->>>>>>> a66d45cb7e858ef5258e8bad5036298bdb9ee813
 /* paragraph content styling------------------- */
 .content{
-    display: grid; 
-    font-size: 20px;
+    display: block; 
+    font-size: 30px;
     padding: 30px;
     text-align: left;
     
