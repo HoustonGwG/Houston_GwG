@@ -5,6 +5,7 @@
 	grid-auto-rows: auto;
 	padding-left: 2.5em;
 	padding-right: 2.5em;
+	line-height: 1.5;
 }
 
 #report-title {
@@ -75,7 +76,7 @@ p {
 
 .numbered-list {
 	list-style: list-style: circle || decimal;
-	text-align: center;
+	text-align: left;
 }
 
 .report-author {
