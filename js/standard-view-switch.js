@@ -29,13 +29,13 @@ $(document).ready(() => {
 		$('div.leading').remove();
 		$('div').removeClass();
 		$('section').removeClass("grid-contain");
+		$('header').removeClass('navbar');
 //		$('div:nth-child(3) p a').remove();
 		
 		//add or create
 		$('body').addClass('BG');
 		$('p').addClass('para');
 //		$('a').addClass('links');
-		$('a:hover').css('text-decoration', 'underline');
 		$('ul li').find('a').addClass('nav-li-a');
 		$('ul').find('li').addClass('nav-li');
 		$('header').addClass('navbar');
@@ -48,7 +48,7 @@ $(document).ready(() => {
 		$('h2').find('a').addClass('h2-a');
 		$('div:nth-child(3)').addClass('main-text');
 		$('div:nth-child(3) p').find('a').addClass('p-a');
-		$('a:hover').css('text-decoration', 'underline');
+//		$('a:hover').css('text-decoration', 'underline');
 		$('ul').addClass('nav-ul');
 		$('h2 a:first-child').addClass('linkb');
 		$('body').prepend('<div class="leading"></div>');
