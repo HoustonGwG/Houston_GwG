@@ -307,6 +307,21 @@ nav li a:hover {
 */
 }
 
+@media (max-width: 700px) {
+
+  .GWG_logo {
+    width: 280px;
+  }
+
+  .GWG_fig {
+    max-width: 100%;
+    display: inline-block;
+    margin-left: 0.5em;
+  }
+}
+
+
+
 /* Banner and logo styling -------------------------------------*/
 .GWG_logo {
   display: inline-block;
@@ -323,18 +338,7 @@ nav li a:hover {
   margin-top: 0.5em;
 }
 
-@media (max-width: 700px) {
 
-  .GWG_logo {
-    width: 280px;
-  }
-
-  .GWG_fig {
-    max-width: 100%;
-    display: inline-block;
-    margin-left: 0.5em;
-  }
-}
 
 .logo {
   height: 50px;

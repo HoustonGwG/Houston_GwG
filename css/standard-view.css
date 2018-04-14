@@ -2,11 +2,6 @@
 	background-color: white;
 }
 
-
-.para {
-	color: black;
-}
-
 .links {
 	color: black;
 	text-decoration: underline;
@@ -32,7 +27,6 @@
 }
 
 @media (max-width: 700px) {
-
   .GWG_logo {
     width: 280px;
   }
@@ -69,66 +63,160 @@
 }
 
 
-/*Toggle Switch
-=====================*/
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 34px;
-}
 
-.switch input {display:none;}
-
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+/* Navigation bar styling -------------------------------------- */
+.navbar {
+  list-style-type: none;
+  margin: 15px;
+  margin-bottom: 30px;
+  padding: 5px;
+  overflow: hidden;
   background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
-input:checked + .slider {
-  background-color: #2196F3;
+.nav-li {
+  list-style-type: none;
+  float: left;
 }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+.nav-li-a {
+  font-family: Monospace;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 2px;
+  text-decoration: none;
+  background-color: white;
 }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+.nav-li-ahover {
+  background-color: #BDBDBD;
 }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
+.nav-ul {
+	background-color: white;
 }
 
-.slider.round:before {
-  border-radius: 50%;
+#toggle, #custom {
+	display: flex;
+	font-family: Monospace;
+	font-weight: bold;
+	background-color: royalblue;
+	color: white;
+	padding: 1em;
 }
 
 
 
+/* Main styling ---------------------------------------------- */
+.grid-contain {
+	display: grid;
+	grid-template: 420px 300px / 1fr 1fr;
+	grid-column-gap: 80px;
+}
+
+.h1 {
+	text-align: center;
+	font-family: 'Times New Roman', serif;
+	font-size: 2em;
+	color: black;
+  text-shadow: 0 0;
+}
+
+.h2 {
+	display: inline;
+}
+
+.h2-a {
+	font-family: 'Times New Roman', serif;
+	font-size: 1em;
+	font-weight: 300;
+	color: black;
+  	text-shadow: 0 0;
+}
+
+.div-img {
+	grid-column-start: 1;
+	justify-self: end;
+	align-self: center;
+}
+
+.img {
+	width: 400px;
+	margin-top: 50px;
+}
+
+.social-links {
+	grid-column-start: 2;
+	justify-self: start;
+	align-self: center;
+	list-style-type: none;
+}
+
+.main-text {
+	grid-row-start: 2;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	max-width: 900px;
+	justify-self: center;
+	align-self: center;
+}
+
+.para {
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+	color: black;
+}
+
+.p-a {
+	color: black;
+}
+
+.p-ahover {
+	text-decoration: underline;
+}
+
+.linkb {
+  color: rgba(57, 129, 243, 1);
+}
+
+.linkg {
+  color: rgba(50, 164, 81, 1);
+}
+
+.linky {
+  color: rgba(240, 181, 5, 1);
+}
+
+.linkr {
+  color: rgba(50, 164, 81, 1);
+}
+
+.link1 a:hover {
+  background-color: rgba(159, 193, 249, 0.8);
+  color: rgba(57, 129, 243, 1);
+}
+
+.link2 a:hover {
+  background-color: rgba(126, 215, 150, 0.8);
+  color: rgba(50, 164, 81, 1);
+}
+
+.link3 a:hover {
+  background-color: rgba(253, 225, 140, 0.8);
+  color: rgba(240, 181, 5, 1);
+}
+
+.link4 a:hover {
+  background-color: rgba(126, 215, 150, 0.8);
+  color: rgba(50, 164, 81, 1);
+}
 
 /* Footer styling ---------------------------------------------- */
 
@@ -139,4 +227,28 @@ input:checked + .slider:before {
 
 .footerp {
   margin: 15px 30px 60px 30px;
+}
+
+button#toggle, button#custom {
+	
+}
+
+
+
+/*Mel styles
+=====================*/
+
+
+.melh2a {
+  text-decoration: none;
+  color: #41EAD4;
+  text-shadow: 1px 1px #FF206E;
+}
+
+.melp {
+  color: white;
+}
+
+.mel-a {
+	
 }

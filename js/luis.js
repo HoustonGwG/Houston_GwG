@@ -1,8 +1,8 @@
 $('ul.profile-links li span').hide();
 
 $('ul.profile-links li').hover( (event) => {
-	$(event.currentTarget).children("span").slideToggle(600);
-	$(event.currentTarget).children("span").toggleClass('anim');
+	$(event.currentTarget).children("span").slideToggle(500);
+//	$(event.currentTarget).children("span").toggleClass('anim');
 
 });
 
