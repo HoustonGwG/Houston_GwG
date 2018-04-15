@@ -48,7 +48,7 @@
   margin-bottom: 0;
   padding: 0em;
   color: white;
-  background-image: url('../grids/index_files/skylinedraft.svg');
+  background-image: url('../grids/index_files/JohannesburgArtisticSilhouette.svg');
   background-position: center bottom;
   background-color:  #fff;
   background-repeat: no-repeat;
@@ -60,11 +60,6 @@
   max-width: 900px;
   font-size: 1.2em;
   line-height: 1.4em;
-}
-
-.header {
-  font-size: 1.75em;
-  color: white;
 }
 
 
