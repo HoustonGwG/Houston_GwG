@@ -55,6 +55,7 @@ $(document).ready(() => {
 		$('body div.leading').append('<figure  class="GWG_fig"></figure>');
 		$('.GWG_fig').append('<img class="GWG_logo" src="index_files/logo_GwG.svg" alt="Grow With Google Logo">');
 		$('#grid').addClass("grid-contain");
+		$('div.leading').addClass('header');
 //		x++;
 //		console.log(x);
 	});
