@@ -1,0 +1,82 @@
+.wrapper-fc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: auto;
+    margin-left: 1em;
+}
+
+.profilepic-fc {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+/*
+    background-image: url(./index_files/profile_faces/frances_minify.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+*/
+}
+
+.profilepic-fc img {
+    width: 100%;
+    object-fit: contain;
+    object-position: top left;
+    overflow: hidden;
+}
+
+.profileheader-fc {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    object-fit: cover;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2em;
+    grid-auto-rows: 2em 2em auto;
+}
+
+.profiletext-fc {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    object-fit: cover;
+}
+
+.profilename-fc {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 2em;
+}
+
+li a {
+    padding-left: 0em;
+    margin-left: 0px;
+    padding-right: 2em;
+    text-decoration: none;
+}
+
+.profilecontact-fc {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+.profiletagline-f {
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+}
+
+.profiletext-p-fc {
+    max-width: 800px;
+    margin-bottom: 1em;
+}

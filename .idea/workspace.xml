@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5de6f79-e586-42f8-afd1-d74528b5dec8" name="Default" comment="spelling">
+    <list default="true" id="c5de6f79-e586-42f8-afd1-d74528b5dec8" name="Default" comment="Spelling">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/grids/about-frances.html" afterPath="$PROJECT_DIR$/grids/about-frances.html" />
-      <change beforePath="$PROJECT_DIR$/grids/aboutus.html" afterPath="$PROJECT_DIR$/grids/aboutus.html" />
-      <change beforePath="$PROJECT_DIR$/grids/report-page.html" afterPath="$PROJECT_DIR$/grids/report-page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,39 +16,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file leaf-file-name="about-frances.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grids/about-frances.html">
+      <file leaf-file-name="about-sarah.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/about-sarah.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="66" column="66" lean-forward="false" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
-              <folding>
-                <element signature="e#4221#4227#0" expanded="true" />
-                <element signature="e#4227#4233#0" expanded="true" />
-                <element signature="e#4233#4239#0" expanded="true" />
-                <element signature="e#4240#4246#0" expanded="true" />
-                <element signature="e#4246#4252#0" expanded="true" />
-                <element signature="e#4252#4258#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grids/aboutus.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+            <state relative-caret-position="231">
+              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="101" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fc-css.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/aboutus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="14" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-mel.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/about-mel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fc-css.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grids/fc-css.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
-              <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frances_minify.svg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/index_files/profile_faces/frances_minify.svg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/index_files/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2475">
+              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-frances.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grids/about-frances.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1287">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+              <folding>
+                <element signature="e#4201#4207#0" expanded="true" />
+                <element signature="e#4207#4213#0" expanded="true" />
+                <element signature="e#4213#4219#0" expanded="true" />
+                <element signature="e#4220#4226#0" expanded="true" />
+                <element signature="e#4226#4232#0" expanded="true" />
+                <element signature="e#4232#4238#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +142,7 @@
       <find>article</find>
       <find>section</find>
       <find>about.html</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,18 +162,19 @@
         <option value="$PROJECT_DIR$/grids/chrome-export/Hello!_files/reset.css" />
         <option value="$PROJECT_DIR$/grids/chrome-export/Hello!.html" />
         <option value="$PROJECT_DIR$/grids/chrome-export/Hello!_files/styles.css" />
-        <option value="$PROJECT_DIR$/grids/index.html" />
         <option value="$PROJECT_DIR$/grids/index_files/reset.css" />
         <option value="$PROJECT_DIR$/grids/index_files/script.js" />
         <option value="$PROJECT_DIR$/grids/index_files/null.css" />
         <option value="$PROJECT_DIR$/grids/index_files/null2.css" />
-        <option value="$PROJECT_DIR$/grids/about-mel.html" />
         <option value="$PROJECT_DIR$/grids/index_files/styles.css" />
         <option value="$PROJECT_DIR$/grids/report-page.html" />
         <option value="$PROJECT_DIR$/grids/report-style.css" />
-        <option value="$PROJECT_DIR$/grids/fc-css.css" />
-        <option value="$PROJECT_DIR$/grids/about-frances.html" />
         <option value="$PROJECT_DIR$/grids/aboutus.html" />
+        <option value="$PROJECT_DIR$/grids/about-mel.html" />
+        <option value="$PROJECT_DIR$/grids/map.html" />
+        <option value="$PROJECT_DIR$/grids/index.html" />
+        <option value="$PROJECT_DIR$/grids/about-frances.html" />
+        <option value="$PROJECT_DIR$/grids/fc-css.css" />
       </list>
     </option>
   </component>
@@ -128,7 +184,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="306" />
     <option name="width" value="2386" />
     <option name="height" value="1490" />
@@ -148,18 +204,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Houston_GwG" type="b2602c69:ProjectViewProjectNode" />
               <item name="Houston_GwG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Houston_GwG" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Houston_GwG" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Houston_GwG" type="b2602c69:ProjectViewProjectNode" />
@@ -175,13 +226,15 @@
             <path>
               <item name="Houston_GwG" type="b2602c69:ProjectViewProjectNode" />
               <item name="Houston_GwG" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="grids" type="462c0819:PsiDirectoryNode" />
+              <item name="index_files" type="462c0819:PsiDirectoryNode" />
+              <item name="profile_faces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +277,8 @@
       <workItem from="1523141984843" duration="6171000" />
       <workItem from="1523491277450" duration="704000" />
       <workItem from="1523758877693" duration="4131000" />
-      <workItem from="1523837726048" duration="878000" />
+      <workItem from="1523837726048" duration="3460000" />
+      <workItem from="1523885313806" duration="7489000" />
     </task>
     <task id="LOCAL-00001" summary="Copied from https://glitch.com/edit/#!/grid-cats?path=index.html:1:0">
       <created>1522537523968</created>
@@ -310,21 +364,56 @@
       <option name="project" value="LOCAL" />
       <updated>1523506037784</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Survey to About Us page">
+      <created>1523841041948</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1523841041948</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Grammar">
+      <created>1523841277295</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1523841277295</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Spelling">
+      <created>1523843952701</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1523843952701</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Spelling">
+      <created>1523885733281</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1523885733282</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Implemented standardized layout and grids on frances-about page. Feel free to copy this for yours.">
+      <created>1523900241517</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1523900241517</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47912000" />
+    <option name="totallyTimeSpent" value="57983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="306" y="0" width="2386" height="1490" extended-state="0" />
+    <frame x="-12" y="-12" width="2904" height="1574" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30563927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24991201" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19169329" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17964073" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -377,15 +466,17 @@
     <MESSAGE value="Map now auto-closes previous infowindow before opening new one." />
     <MESSAGE value="Added text max-width and also improved text spacing." />
     <MESSAGE value="spelling" />
-    <option name="LAST_COMMIT_MESSAGE" value="spelling" />
+    <MESSAGE value="Added Survey to About Us page" />
+    <MESSAGE value="Grammar" />
+    <MESSAGE value="Spelling" />
+    <MESSAGE value="Implemented standardized layout and grids on frances-about page. Feel free to copy this for yours." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented standardized layout and grids on frances-about page. Feel free to copy this for yours." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grids/chrome-export/Hello!.html" />
-    <entry file="file://$PROJECT_DIR$/grids/chrome-export/Hello!_files/reset.css" />
     <entry file="file://$PROJECT_DIR$/grids/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2112">
@@ -457,20 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grids/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grids/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grids/index_files/null.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -513,20 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grids/index_files/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="59" column="35" lean-forward="false" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grids/about-mel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grids/report-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -534,33 +597,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grids/fc-css.css">
+    <entry file="file://$PROJECT_DIR$/grids/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="1" lean-forward="false" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="726">
+          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grids/about-frances.html">
+    <entry file="file://$PROJECT_DIR$/grids/about-mel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="66" column="66" lean-forward="false" selection-start-line="66" selection-start-column="66" selection-end-line="66" selection-end-column="66" />
-          <folding>
-            <element signature="e#4221#4227#0" expanded="true" />
-            <element signature="e#4227#4233#0" expanded="true" />
-            <element signature="e#4233#4239#0" expanded="true" />
-            <element signature="e#4240#4246#0" expanded="true" />
-            <element signature="e#4246#4252#0" expanded="true" />
-            <element signature="e#4252#4258#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grids/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="59" column="12" lean-forward="true" selection-start-line="59" selection-start-column="12" selection-end-line="59" selection-end-column="12" />
+        <state relative-caret-position="429">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="14" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grids/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grids/about-sarah.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grids/index_files/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2475">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grids/index_files/profile_faces/frances_minify.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grids/about-frances.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1287">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+          <folding>
+            <element signature="e#4201#4207#0" expanded="true" />
+            <element signature="e#4207#4213#0" expanded="true" />
+            <element signature="e#4213#4219#0" expanded="true" />
+            <element signature="e#4220#4226#0" expanded="true" />
+            <element signature="e#4226#4232#0" expanded="true" />
+            <element signature="e#4232#4238#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grids/fc-css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
           <folding />
         </state>
       </provider>
