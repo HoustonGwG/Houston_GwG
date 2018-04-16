@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5de6f79-e586-42f8-afd1-d74528b5dec8" name="Default" comment="Spelling">
+    <list default="true" id="c5de6f79-e586-42f8-afd1-d74528b5dec8" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/grids/fc-css.css" afterPath="$PROJECT_DIR$/grids/fc-css.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,8 +70,8 @@
       <file leaf-file-name="fc-css.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/grids/fc-css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="851">
+              <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -86,8 +87,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grids/index_files/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2475">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="627">
+              <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -96,8 +97,8 @@
       <file leaf-file-name="about-frances.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grids/about-frances.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
-              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+            <state relative-caret-position="231">
+              <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
               <folding>
                 <element signature="e#4201#4207#0" expanded="true" />
                 <element signature="e#4207#4213#0" expanded="true" />
@@ -278,7 +279,7 @@
       <workItem from="1523491277450" duration="704000" />
       <workItem from="1523758877693" duration="4131000" />
       <workItem from="1523837726048" duration="3460000" />
-      <workItem from="1523885313806" duration="7489000" />
+      <workItem from="1523885313806" duration="7838000" />
     </task>
     <task id="LOCAL-00001" summary="Copied from https://glitch.com/edit/#!/grid-cats?path=index.html:1:0">
       <created>1522537523968</created>
@@ -399,11 +400,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523900241517</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Spelling">
+      <created>1523900682074</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1523900682074</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57983000" />
+    <option name="totallyTimeSpent" value="58332000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="-12" width="2904" height="1574" extended-state="6" />
@@ -468,9 +476,10 @@
     <MESSAGE value="spelling" />
     <MESSAGE value="Added Survey to About Us page" />
     <MESSAGE value="Grammar" />
-    <MESSAGE value="Spelling" />
     <MESSAGE value="Implemented standardized layout and grids on frances-about page. Feel free to copy this for yours." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented standardized layout and grids on frances-about page. Feel free to copy this for yours." />
+    <MESSAGE value="Spelling" />
+    <MESSAGE value="Completed standard about-me page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed standard about-me page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -637,14 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grids/index_files/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2475">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grids/index_files/profile_faces/frances_minify.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -652,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grids/about-frances.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        <state relative-caret-position="231">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
           <folding>
             <element signature="e#4201#4207#0" expanded="true" />
             <element signature="e#4207#4213#0" expanded="true" />
@@ -665,10 +666,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/grids/index_files/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="166" column="0" lean-forward="false" selection-start-line="166" selection-start-column="0" selection-end-line="166" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grids/fc-css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="851">
+          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
           <folding />
         </state>
       </provider>

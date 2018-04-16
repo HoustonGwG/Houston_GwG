@@ -1,6 +1,6 @@
 .wrapper-fc {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     grid-auto-rows: auto;
     margin-left: 1em;
@@ -77,6 +77,16 @@ li a {
 }
 
 .profiletext-p-fc {
-    max-width: 800px;
     margin-bottom: 1em;
+}
+
+@media (max-width: 700px) {
+    .wrapper-fc {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.wrapper-fc {
+    max-width: 1500px;
+    margin: auto;
 }
