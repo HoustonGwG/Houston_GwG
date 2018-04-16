@@ -44,15 +44,15 @@ var prev_infowindow =false;
 var list = [
     ['Ross', 29.740582, -95.4515725, './index_files/profile_faces/ross_minify.svg', 'index.html'],
     ['Frances', 29.4947986, -95.09110620000001, './index_files/profile_faces/frances_minify.svg', 'about-frances.html'],
-    ['Sarah', 29.703553, -95.499106, './index_files/profile_faces/sarah_minify.svg','index.html'],
-    ['Erica', 29.803962, -95.397720, './index_files/profile_faces/erica_minify.svg','index.htm'],
-    ['Yara', 29.747440, -95.586540, './index_files/profile_faces/yara_minify.svg','index.html'],
+    ['Sarah', 29.703553, -95.499106, './index_files/profile_faces/sarah_minify.svg','about-sarah.html'],
+    ['Erica', 29.803962, -95.397720, './index_files/profile_faces/erica_minify.svg','about-erica.html'],
+    ['Yara', 29.747440, -95.586540, './index_files/profile_faces/yara_minify.svg','index-yara.html'],
     ['Kyle', 29.533487, -95.205966, './index_files/profile_faces/kyle_minify.svg','index.html'],
-    ['Richard', 29.946598, -95.688767, './index_files/profile_faces/richard_minify.svg','index.html'],
-    ['Lou', 29.703400, -95.861848, './index_files/profile_faces/lou_minify.svg','index.html'],
-    ['Mel', 29.737676, -95.500878, './index_files/profile_faces/mel_minify.svg','index.html'],
+    ['Richard', 29.946598, -95.688767, './index_files/profile_faces/richard_minify.svg','about-richard.html'],
+    ['Lou', 29.703400, -95.861848, './index_files/profile_faces/lou_minify.svg','about-lou.html'],
+    ['Mel', 29.737676, -95.500878, './index_files/profile_faces/mel_minify.svg','about-mel.html'],
     //['Mahmoud', LAT, LONG, './index_files/profile_faces/mahmoud_minify.svg','index.html'],
-    ['Omena', 29.748075, -95.572011, './index_files/profile_faces/omena_minify.svg','index.html']
+    ['Omena', 29.748075, -95.572011, './index_files/profile_faces/omena_minify.svg','about-omena.html']
   ];
 
 //Function to initialize map
